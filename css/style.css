@@ -1,3 +1,77 @@
-h1 {
-    background-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --Texto_escuro: #14183E;
+    --Azul: #4372EB;
+    --Cinza_claro: #9A9EA6;
+}
+body {
+    font-family: 'Plus Jakarta Sans';
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--Cinza_claro);
+    padding: 0 6rem;
+}
+#circulo {
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border: 1px solid red;
+}
+.icone {
+    border: 1px solid blue;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    margin-right:4px ;
+}
+
+#viajante {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+#texto_viajante{
+    margin-top: -100px;
+}
+#viajante #texto_viajante h1  {
+    font-size: 63px;
+    color: var(--Texto_escuro);
+    margin-bottom: 20px;
+}
+#viajante #texto_viajante p{
+    font-size: 14px;
+    color: var(--Texto_escuro);
+    margin-bottom: 20px;
+}
+
+span {
+    color: var(--Azul);
+}
+.cadastro {
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+}
+button {
+    width: 40%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--Azul);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#viajante img {
+    width: 500px;
 }
