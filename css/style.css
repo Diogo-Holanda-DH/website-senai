@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
 
 :root{
     --Texto_escuro: #14183E;
@@ -23,34 +25,39 @@ body {
    
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    border: 1px solid red;
+    justify-content:center;
+    text-align: center;
+  
 }
 .icone {
-    border: 1px solid blue;
+    text-align: center;
+    background-color: var(--Cinza_claro);
+    font-size: 30px;
     border-radius: 50px;
     width: 40px;
     height: 40px;
-    margin-right:4px ;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    color: var(--Azul);  
 }
-
 #viajante {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    
+    padding: 30px;   
 }
 #texto_viajante{
     margin-top: -100px;
 }
 #viajante #texto_viajante h1  {
-    font-size: 63px;
+    font-size: 100px;
     color: var(--Texto_escuro);
     margin-bottom: 20px;
+    font-weight: 900;
 }
 #viajante #texto_viajante p{
-    font-size: 14px;
+    font-size: 24px;
     color: var(--Texto_escuro);
     margin-bottom: 20px;
 }
@@ -62,16 +69,80 @@ span {
     display: flex;
     text-align: center;
     justify-content:space-between;
+    margin-top: 40px;
 }
 button {
-    width: 40%;
-    padding: 10px;
-    font-size: 20px;
+    width: 35%;
+    padding: 30px;
+    font-size: 30px;
     background-color: var(--Azul);
     color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
 }
 #viajante img {
-    width: 500px;
+    width: 40vw;
+}
+.cadastro i {
+    font-size: 70px; 
+    margin-top: 25px;  
+    margin-left: 10px; 
+}
+.cadastro p{
+    margin-right: 200px;
+    margin-top: 50px;
+    color: var(--Texto_escuro);
+    font-weight: 700;
+}
+#empresas {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
+}
+#empresas img {
+    margin-top: -200px;
+    width: 15vw;
+}
+#destinos {
+    border: 1px solid blue;
+    height: 800px;
+}
+#imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.destino_img_1 {
+    background-image: url(/img/destino2.png);
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.destino_img_2 {
+    background-image: url(/img/destino1.png);
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    margin-left: 20px;
+    border-radius: 10px;    
+}
+.destino_img_3 {
+    background-image: url(/img/destino5.png);
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    margin-left: 20px;
+    border-radius: 10px;    
+}
+.destino_img_4 {
+    background-image: url(/img/destino4.png);
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    margin-left: 20px;
+    border-radius: 10px;    
 }
