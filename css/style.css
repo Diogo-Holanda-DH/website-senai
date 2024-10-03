@@ -95,7 +95,6 @@ button {
     font-weight: 700;
 }
 #empresas {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -105,14 +104,34 @@ button {
     margin-top: -200px;
     width: 15vw;
 }
+/* inicio div destino */
 #destinos {
     border: 1px solid blue;
-    height: 800px;
+    height: 850px;
+    padding-top: 40px;
+}
+#destino_texto {
+    padding: 0 11rem;
+}
+#destino_texto h3{
+    font-weight: 800;
+    font-size: 25px;
+    color: var(--Azul);
+    margin-bottom: 40px;
+}
+#destino_texto h1{
+    font-weight: 800;
+    font-size: 2.7vw;
+    color: var(--Texto_escuro);
 }
 #imagens {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 800px;
+    width: 85%;
+    margin: auto;
+    margin-top: -70px;
 }
 .destino_img_1 {
     background-image: url(/img/destino2.png);
@@ -121,6 +140,7 @@ button {
     height: 550px;
     margin-left: 20px;
     border-radius: 10px;
+
 }
 .destino_img_2 {
     background-image: url(/img/destino1.png);
@@ -146,4 +166,13 @@ button {
     margin-left: 20px;
     border-radius: 10px;    
 }
-/* teste */
+
+.destino_img_1 h1, p,
+.destino_img_2 h1, p,
+.destino_img_3 h1, p,
+.destino_img_4 h1, p{
+    background-color: #9A9EA6;
+  
+    
+    
+}
