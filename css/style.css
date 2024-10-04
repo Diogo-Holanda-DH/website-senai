@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 
 :root{
     --Texto_escuro: #14183E;
@@ -21,13 +24,11 @@ body {
     border: 1px solid var(--Cinza_claro);
     padding: 0 6rem;
 }
-#circulo {
-   
+#circulo {  
     display: flex;
     align-items: center;
     justify-content:center;
     text-align: center;
-  
 }
 .icone {
     text-align: center;
@@ -61,7 +62,6 @@ body {
     color: var(--Texto_escuro);
     margin-bottom: 20px;
 }
-
 span {
     color: var(--Azul);
 }
@@ -131,8 +131,7 @@ button {
     height: 800px;
     width: 85%;
     margin: auto;
-    margin-top: -70px;
-   
+    margin-top: -70px;  
 }
 .destino_img_1 {
     background-image: url(/img/destino2.png);
@@ -173,7 +172,6 @@ button {
     justify-content: end;
     text-align: center;
 }
-
 .cartoes h1, .cartoes p {
     width: 50%;
     background-color: rgba(209, 199, 199, 0.7);
@@ -187,8 +185,7 @@ button {
 #reserva_texto p {
     font-size: 30px;
     font-weight: 700;
-    color: var(--Azul);
-  
+    color: var(--Azul); 
 }
 #reserva_texto h2 {
     font-size: 70px;
@@ -203,19 +200,16 @@ button {
     display: flex;
     height: 30vw;
 }
-
 .secoes_reserva {
     display: flex;
     align-items: center;
     margin: 10px;
     font-size: 20px;
     margin-top: 4vh;
-
 }
 #reserva_2 {
     margin-left: 100px;
-    width: 60%;
-    
+    width: 60%;   
 }
 .img_reserva {
     width: 50%;
@@ -233,4 +227,108 @@ button {
     min-width: 30px;
     min-height: 30px;
 }
-
+/* fim reservas */
+#mapa_favorito {
+    height: 1000px;
+    margin-top: 15vh;
+}
+#mapa_texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+#mapa_texto h3 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+#mapa_texto h1 {
+    margin-top: 20px;
+    font-size: 75px;
+}
+#mapa_texto p {
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.img_mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+}
+#favorito {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    font-size: 25px;
+    color: var(--Texto_escuro);
+}
+.secao_favorito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+.secao_favorito i {
+    margin-right: 30px;
+    color: black;
+    margin-top: -30px;
+}
+.secao_favorito strong {
+    font-size: 30px;
+}
+.secao_favorito .subir {
+    margin-top: -32px;
+}
+/* fim mapa favorito */
+a{
+    text-decoration: none;
+}
+#galeria {
+    margin-top: 10vh;
+    border: 1px solid red;
+}
+#galeria_texto p {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 12% ;
+}
+#galeria_texto h1 {
+    font-size: 60px;
+    color: var(--Texto_escuro);
+    margin-top: 10px;
+    margin-left: 12%;
+}
+#galeria_secao {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+   
+    
+}
+#texto_imagem {
+    margin-left: 0px;
+    margin-top: -230px;
+    border: 1px solid green;
+}
+.img_texto { 
+    border: 1px solid ;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.video {
+ padding: 5rem;
+ width: 100vw;
+ height: 800px;
+}
