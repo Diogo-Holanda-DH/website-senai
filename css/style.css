@@ -4,6 +4,7 @@
 @import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-bold-straight/css/uicons-bold-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.5.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 
 :root{
     --Texto_escuro: #14183E;
@@ -289,10 +290,11 @@ button {
 /* fim mapa favorito */
 a{
     text-decoration: none;
+    padding: 20px;
 }
 #galeria {
+    height: 800px;
     margin-top: 10vh;
-    border: 1px solid red;
 }
 #galeria_texto p {
     font-size: 22px;
@@ -308,27 +310,166 @@ a{
 #galeria_secao {
     display: flex;
     align-items: center;
-    border: 1px solid;
-    margin: 0 auto;
-    border: 1px solid black;
-    padding: 20px;
-   
-    
+    padding: 0 100px;  
 }
-#texto_imagem {
-    margin-left: 0px;
+#texto_imagem {   
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 100px;
     margin-top: -230px;
-    border: 1px solid green;
+    border: 1px solid rgb(38, 41, 38);
+    margin-left: 0px;
+    box-shadow: 5px 5px 5px #5a5858;
+    padding-bottom: 45px;
+}
+#texto_imagem p{
+    padding: 20px;  
+}
+#texto_imagem h4 {
+    padding: 20px;
+    font-size: 20px;
 }
 .img_texto { 
     border: 1px solid ;
     width: 20vw;
-    height: 50vh;
+    height: 30vh;
     border-radius: 20px 20px 0px 0px;
-    
 }
 .video {
  padding: 5rem;
  width: 100vw;
  height: 800px;
+}
+#img_unica {
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    background-image: url(/img/destino5.png);
+    background-size:cover;
+    background-position:center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#img_unica h2, #img_unica p {
+    padding: 0 5rem;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+#img_unica h2 {
+    display: flex;
+    justify-content:flex-start;
+    font-size: 30px;
+}
+/* inicio cometários */
+#comentarios {
+    height: 1200px;
+}
+#comentario_texto {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 150px;
+} 
+#comentario_texto p {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 2rem;
+}
+#comentario_texto h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+#comentario_texto p {
+    text-align: center;
+}
+#secoes_comentarios {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px, 5px, 5px, 10px, #050505;
+}
+.secao_coment_1 {
+    height: 550px;
+    width: 25%;
+    margin-top: 6rem;
+    background-color: #e1e2e4;
+    box-shadow: 5px 15px 5px #5a5858;
+    border-radius: 10px;
+}
+.secao_coment_2 {
+    height: 550px;
+    margin-top: 6rem;
+    width: 25%;
+    background-color: #e1e2e4;
+    box-shadow: 5px 15px 5px #5a5858;
+    border-radius: 10px;
+}
+.secao_coment_3 {
+    height: 550px;
+    margin-top: 6rem;
+    width: 25%;
+    background-color: #e1e2e4;
+    box-shadow: 5px 15px 5px #5a5858;
+    border-radius: 10px;
+}
+.cont_comentario {
+    height: 100%;
+    margin-top: 10%; 
+}
+.cont_comentario img {
+    width: 60%;
+    margin-left: 80px;
+}
+.cont_comentario p {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cont_comentario i {
+    margin-left: 30px;
+    font-size: 35px;
+    color: rgb(126, 126, 40);
+}
+.estrela {
+    padding: 10px;
+}
+.cont_comentario .estrela_apagada {
+    color: #5a5858;
+}
+.cont_comentario a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Rodape */
+#rodape {
+    height: 1000px;
+    color: var(--Cinza_claro);
+}
+#rodape_final {
+    font-size: 20px;
+   padding: 0.5em 5rem;
+   margin-bottom: 220px;
+}
+#rodape_final img {
+    margin-bottom: 20px;
+}
+#rodape_final p {
+    margin-bottom: 20px;
+}
+.contatos {
+    margin-top: 50px;
+}
+.redes {
+    margin-top:20px ;
+    font-size: 20px;
+}
+#web_finalizado {
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
