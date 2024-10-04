@@ -106,7 +106,7 @@ button {
 }
 /* inicio div destino */
 #destinos {
-    border: 1px solid blue;
+  
     height: 850px;
     padding-top: 40px;
 }
@@ -132,6 +132,7 @@ button {
     width: 85%;
     margin: auto;
     margin-top: -70px;
+   
 }
 .destino_img_1 {
     background-image: url(/img/destino2.png);
@@ -166,13 +167,70 @@ button {
     margin-left: 20px;
     border-radius: 10px;    
 }
+.cartoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
 
-.destino_img_1 h1, p,
-.destino_img_2 h1, p,
-.destino_img_3 h1, p,
-.destino_img_4 h1, p{
-    background-color: #9A9EA6;
+.cartoes h1, .cartoes p {
+    width: 50%;
+    background-color: rgba(209, 199, 199, 0.7);
+    padding: 5px;
+    font-size: 20px;
+}
+/* reservas */
+#reserva_texto {
+    margin-top: 40px;
+}
+#reserva_texto p {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Azul);
   
-    
+}
+#reserva_texto h2 {
+    font-size: 70px;
+    color: var(--Texto_escuro);
+}
+#reservas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    height: 900px;
+    display: flex;
+    height: 30vw;
+}
+
+.secoes_reserva {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 4vh;
+
+}
+#reserva_2 {
+    margin-left: 100px;
+    width: 60%;
     
 }
+.img_reserva {
+    width: 50%;
+    height: -200px;
+}
+.secoes_reserva p {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.secao {
+    background-color: rgba(102, 102, 7, 0.5);
+    padding: 0.7rem;
+    border-radius: 10px;
+    margin-top: -30px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
