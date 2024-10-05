@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 #nav-bar {
     display: flex;
     align-items: center;
@@ -44,6 +45,7 @@ body {
     color: var(--Azul);  
 }
 #viajante {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +55,8 @@ body {
     margin-top: -100px;
 }
 #viajante #texto_viajante h1  {
-    font-size: 100px;
+    flex-wrap: wrap;
+    font-size: 10vh;
     color: var(--Texto_escuro);
     margin-bottom: 20px;
     font-weight: 900;
@@ -393,26 +396,26 @@ a{
 }
 .secao_coment_1 {
     height: 550px;
-    width: 25%;
+    width: 20%;
     margin-top: 6rem;
-    background-color: #e1e2e4;
-    box-shadow: 5px 15px 5px #5a5858;
+    background-color: #f8f9fc;
+    box-shadow: 5px 5px 15px #5a5858;
     border-radius: 10px;
 }
 .secao_coment_2 {
     height: 550px;
     margin-top: 6rem;
-    width: 25%;
-    background-color: #e1e2e4;
-    box-shadow: 5px 15px 5px #5a5858;
+    width: 20%;
+    background-color: #f8f9fc;
+    box-shadow: 5px 5px 15px #5a5858;
     border-radius: 10px;
 }
 .secao_coment_3 {
     height: 550px;
     margin-top: 6rem;
-    width: 25%;
-    background-color: #e1e2e4;
-    box-shadow: 5px 15px 5px #5a5858;
+    width: 20%;
+    background-color: #f8f9fc;
+    box-shadow: 5px 5px 15px #5a5858;
     border-radius: 10px;
 }
 .cont_comentario {
@@ -433,9 +436,6 @@ a{
     margin-left: 30px;
     font-size: 35px;
     color: rgb(126, 126, 40);
-}
-.estrela {
-    padding: 10px;
 }
 .cont_comentario .estrela_apagada {
     color: #5a5858;
@@ -464,6 +464,9 @@ a{
 .contatos {
     margin-top: 50px;
 }
+.contatos i {
+    margin-right:20px;
+}
 .redes {
     margin-top:20px ;
     font-size: 20px;
@@ -472,4 +475,26 @@ a{
     display: flex;
     align-items: end;
     justify-content: center;
+}
+#rodape_final img{
+    width: 250px;
+}
+
+/* Resposividade para tablet */
+
+@media screen and (max-width: 1024px){
+    #texto_viajante h1{   
+        font-size: 20px;
+    }
+    #viajante{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+    #viajante img{
+        max-width: 400px;
+        min-width: 400px;
+    }
+    #empresas{
+        flex-direction: column;
+    }
 }
